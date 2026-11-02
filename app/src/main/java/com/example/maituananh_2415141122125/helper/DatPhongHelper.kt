@@ -19,13 +19,11 @@ object DatPhongHelper {
         }
 
         var tienPhong = loai.giaMotDem * soDem
-        
-        // Giảm 15% nếu đặt từ 5 đêm trở lên
+
         if (soDem >= 5) {
             tienPhong = (tienPhong * 85) / 100
         }
 
-        // Tính phụ thu cho số khách vượt sức chứa
         val soKhachVuot = maxOf(0, soKhach - loai.sucChua)
         val phuThu = soKhachVuot * 150000L * soDem
 
