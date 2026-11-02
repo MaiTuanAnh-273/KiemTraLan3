@@ -1,0 +1,133 @@
+﻿================================================================================
+                   FDT AGENT - LOCAL GIT COMMIT LOG HISTORY                     
+================================================================================
+ExportedAt: 2026-11-02 07:08:53 UTC
+
+--- CONTRIBUTORS SUMMARY ---
+7	MAI TUẤN Anh (2415141122125) <2415141122125@fdt.ute.udn.vn>
+
+--- MACHINE READABLE COMMITS ---
+COMMIT_ROW|9d749c0c605d9b63b7f709cc1458a0e2affa013e|9d749c0|MAI TUẤN Anh (2415141122125)|2415141122125@fdt.ute.udn.vn|MAI TUẤN Anh (2415141122125)|2415141122125@fdt.ute.udn.vn|2026-11-02T14:08:52+07:00|FDT Agent Auto-Commit [14:08:52]: Nộp bài cưỡng chế do vi phạm lần 4: Phát hiện dán đoạn mã nguồn/giao diện (+12 dòng, 467 bytes, vượt ngưỡng cho phép < 5 dòng) vào tệp app/src/main/java/com/example/maituananh_2415141122125/data/DuLieuMau.kt
+COMMIT_ROW|726c3c03c0bdc1645dfc194e02a5650d631c8792|726c3c0|MAI TUẤN Anh (2415141122125)|2415141122125@fdt.ute.udn.vn|MAI TUẤN Anh (2415141122125)|2415141122125@fdt.ute.udn.vn|2026-11-02T14:05:25+07:00|FDT Agent Auto-Commit [14:05:25]: Tự động sao lưu tiến độ làm bài định kỳ
+COMMIT_ROW|356d7bc631ef03d8d683dc65582b87f90a461f77|356d7bc|MAI TUẤN Anh (2415141122125)|2415141122125@fdt.ute.udn.vn|MAI TUẤN Anh (2415141122125)|2415141122125@fdt.ute.udn.vn|2026-11-02T14:00:25+07:00|FDT Agent Auto-Commit [14:00:25]: Tự động sao lưu tiến độ làm bài định kỳ
+COMMIT_ROW|d64be7682c47a6fa9c79d9ab9662fdd09afce965|d64be76|MAI TUẤN Anh (2415141122125)|2415141122125@fdt.ute.udn.vn|MAI TUẤN Anh (2415141122125)|2415141122125@fdt.ute.udn.vn|2026-11-02T13:55:23+07:00|FDT Agent Auto-Commit [13:55:23]: Tự động sao lưu tiến độ làm bài định kỳ
+COMMIT_ROW|634071ab17fde5affcf3b8a833e0441c26db7e96|634071a|MAI TUẤN Anh (2415141122125)|2415141122125@fdt.ute.udn.vn|MAI TUẤN Anh (2415141122125)|2415141122125@fdt.ute.udn.vn|2026-11-02T13:50:21+07:00|FDT Agent Auto-Commit [13:50:21]: Tự động sao lưu tiến độ làm bài định kỳ
+COMMIT_ROW|3f2050ee088b07593832196adc83e6b0ff760369|3f2050e|MAI TUẤN Anh (2415141122125)|2415141122125@fdt.ute.udn.vn|MAI TUẤN Anh (2415141122125)|2415141122125@fdt.ute.udn.vn|2026-11-02T13:30:15+07:00|FDT Agent Auto-Commit [13:30:15]: Tự động sao lưu tiến độ làm bài định kỳ
+COMMIT_ROW|1020699a31f108352065c1e0a61a3cc91e3a5162|1020699|MAI TUẤN Anh (2415141122125)|2415141122125@fdt.ute.udn.vn|MAI TUẤN Anh (2415141122125)|2415141122125@fdt.ute.udn.vn|2026-11-02T13:26:21+07:00|FDT Agent: Initialized local project repository
+
+--- DETAILED COMMIT HISTORY WITH FILE STATS ---
+commit 9d749c0c605d9b63b7f709cc1458a0e2affa013e
+Author:     MAI TUẤN Anh (2415141122125) <2415141122125@fdt.ute.udn.vn>
+AuthorDate: Mon Nov 2 14:08:52 2026 +0700
+Commit:     MAI TUẤN Anh (2415141122125) <2415141122125@fdt.ute.udn.vn>
+CommitDate: Mon Nov 2 14:08:52 2026 +0700
+
+    FDT Agent Auto-Commit [14:08:52]: Nộp bài cưỡng chế do vi phạm lần 4: Phát hiện dán đoạn mã nguồn/giao diện (+12 dòng, 467 bytes, vượt ngưỡng cho phép < 5 dòng) vào tệp app/src/main/java/com/example/maituananh_2415141122125/data/DuLieuMau.kt
+
+ .../com/example/maituananh_2415141122125/data/DuLieuMau.kt | 14 ++++++++++++++
+ .../example/maituananh_2415141122125/model/DonDatPhong.kt  | 10 +---------
+ 2 files changed, 15 insertions(+), 9 deletions(-)
+
+commit 726c3c03c0bdc1645dfc194e02a5650d631c8792
+Author:     MAI TUẤN Anh (2415141122125) <2415141122125@fdt.ute.udn.vn>
+AuthorDate: Mon Nov 2 14:05:25 2026 +0700
+Commit:     MAI TUẤN Anh (2415141122125) <2415141122125@fdt.ute.udn.vn>
+CommitDate: Mon Nov 2 14:05:25 2026 +0700
+
+    FDT Agent Auto-Commit [14:05:25]: Tự động sao lưu tiến độ làm bài định kỳ
+
+ .../com/example/maituananh_2415141122125/model/DonDatPhong.kt  | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+commit 356d7bc631ef03d8d683dc65582b87f90a461f77
+Author:     MAI TUẤN Anh (2415141122125) <2415141122125@fdt.ute.udn.vn>
+AuthorDate: Mon Nov 2 14:00:25 2026 +0700
+Commit:     MAI TUẤN Anh (2415141122125) <2415141122125@fdt.ute.udn.vn>
+CommitDate: Mon Nov 2 14:00:25 2026 +0700
+
+    FDT Agent Auto-Commit [14:00:25]: Tự động sao lưu tiến độ làm bài định kỳ
+
+ .../com/example/maituananh_2415141122125/model/DonDatPhong.kt | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+
+commit d64be7682c47a6fa9c79d9ab9662fdd09afce965
+Author:     MAI TUẤN Anh (2415141122125) <2415141122125@fdt.ute.udn.vn>
+AuthorDate: Mon Nov 2 13:55:23 2026 +0700
+Commit:     MAI TUẤN Anh (2415141122125) <2415141122125@fdt.ute.udn.vn>
+CommitDate: Mon Nov 2 13:55:23 2026 +0700
+
+    FDT Agent Auto-Commit [13:55:23]: Tự động sao lưu tiến độ làm bài định kỳ
+
+ .../main/java/com/example/maituananh_2415141122125/model/DonDatPhong.kt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 634071ab17fde5affcf3b8a833e0441c26db7e96
+Author:     MAI TUẤN Anh (2415141122125) <2415141122125@fdt.ute.udn.vn>
+AuthorDate: Mon Nov 2 13:50:21 2026 +0700
+Commit:     MAI TUẤN Anh (2415141122125) <2415141122125@fdt.ute.udn.vn>
+CommitDate: Mon Nov 2 13:50:21 2026 +0700
+
+    FDT Agent Auto-Commit [13:50:21]: Tự động sao lưu tiến độ làm bài định kỳ
+
+ .../java/com/example/maituananh_2415141122125/model/LoaiPhong.kt  | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+commit 3f2050ee088b07593832196adc83e6b0ff760369
+Author:     MAI TUẤN Anh (2415141122125) <2415141122125@fdt.ute.udn.vn>
+AuthorDate: Mon Nov 2 13:30:15 2026 +0700
+Commit:     MAI TUẤN Anh (2415141122125) <2415141122125@fdt.ute.udn.vn>
+CommitDate: Mon Nov 2 13:30:15 2026 +0700
+
+    FDT Agent Auto-Commit [13:30:15]: Tự động sao lưu tiến độ làm bài định kỳ
+
+ app/.gitignore                                     |   1 +
+ app/build.gradle.kts                               |  43 ++++
+ .../ExampleInstrumentedTest.kt                     |  24 ++
+ app/src/main/AndroidManifest.xml                   |  26 +++
+ .../maituananh_2415141122125/MainActivity.kt       |  20 ++
+ app/src/main/keepRules/rules.keep                  |  12 +
+ .../main/res/drawable/ic_launcher_background.xml   | 170 ++++++++++++++
+ .../main/res/drawable/ic_launcher_foreground.xml   |  30 +++
+ app/src/main/res/layout/activity_main.xml          |  19 ++
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   6 +
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   6 +
+ app/src/main/res/mipmap-hdpi/ic_launcher.webp      | Bin 0 -> 1404 bytes
+ .../main/res/mipmap-hdpi/ic_launcher_round.webp    | Bin 0 -> 2898 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher.webp      | Bin 0 -> 982 bytes
+ .../main/res/mipmap-mdpi/ic_launcher_round.webp    | Bin 0 -> 1772 bytes
+ app/src/main/res/mipmap-xhdpi/ic_launcher.webp     | Bin 0 -> 1900 bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.webp   | Bin 0 -> 3918 bytes
+ app/src/main/res/mipmap-xxhdpi/ic_launcher.webp    | Bin 0 -> 2884 bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.webp  | Bin 0 -> 5914 bytes
+ app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp   | Bin 0 -> 3844 bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.webp | Bin 0 -> 7778 bytes
+ app/src/main/res/values-night/themes.xml           |   7 +
+ app/src/main/res/values/colors.xml                 |   5 +
+ app/src/main/res/values/strings.xml                |   3 +
+ app/src/main/res/values/themes.xml                 |   9 +
+ app/src/main/res/xml/backup_rules.xml              |  13 ++
+ app/src/main/res/xml/data_extraction_rules.xml     |  19 ++
+ .../maituananh_2415141122125/ExampleUnitTest.kt    |  17 ++
+ build.gradle.kts                                   |   4 +
+ gradle.properties                                  |  19 ++
+ gradle/gradle-daemon-jvm.properties                |  12 +
+ gradle/libs.versions.toml                          |  24 ++
+ gradle/wrapper/gradle-wrapper.jar                  | Bin 0 -> 45457 bytes
+ gradle/wrapper/gradle-wrapper.properties           |   9 +
+ gradlew                                            | 251 +++++++++++++++++++++
+ gradlew.bat                                        |  94 ++++++++
+ local.properties                                   |  10 +
+ settings.gradle.kts                                |  27 +++
+ 38 files changed, 880 insertions(+)
+
+commit 1020699a31f108352065c1e0a61a3cc91e3a5162
+Author:     MAI TUẤN Anh (2415141122125) <2415141122125@fdt.ute.udn.vn>
+AuthorDate: Mon Nov 2 13:26:21 2026 +0700
+Commit:     MAI TUẤN Anh (2415141122125) <2415141122125@fdt.ute.udn.vn>
+CommitDate: Mon Nov 2 13:26:21 2026 +0700
+
+    FDT Agent: Initialized local project repository
+
+ .gitignore | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
