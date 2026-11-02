@@ -12,12 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaiTuanAnh_2415141122125">
         <activity
-            android:name=".MainActivity"
+            android:name=".DatPhongActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
