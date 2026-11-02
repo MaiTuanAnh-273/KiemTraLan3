@@ -1,8 +1,7 @@
 package com.example.maituananh_2415141122125.model
 
-import java.io.Serializable
-data class DonDatHang(
-    val hoten:String,
+data class DonDatPhong(
+    val hoTen: String,
     val sdt: String,
     val email: String,
     val maLoaiPhong: String,

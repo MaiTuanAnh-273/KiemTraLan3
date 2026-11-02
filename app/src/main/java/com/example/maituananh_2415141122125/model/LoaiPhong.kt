@@ -4,5 +4,5 @@ data class LoaiPhong(
     val ma: String,
     val ten: String,
     val giaMotDem: Long,
-    val suaChua: Int
+    val sucChua: Int
 )

@@ -1,14 +1,14 @@
 package com.example.maituananh_2415141122125.data
 
-import vn.edu.ute.datphong.model.LoaiPhong
+import com.example.maituananh_2415141122125.model.LoaiPhong
 
 object DuLieuMau {
     val dsLoaiPhong: List<LoaiPhong> = listOf(
-        LoaiPhong("P125", "Phòng Standard", 450000L, 2),
-        LoaiPhong("P101", "Phòng Đơn", 300000L, 1),
-        LoaiPhong("P201", "Phòng Superior", 650000L, 2),
-        LoaiPhong("P301", "Phòng Deluxe", 900000L, 3),
-        LoaiPhong("P401", "Phòng Family", 1500000L, 4),
-        LoaiPhong("P501", "Phòng Suite", 2800000L, 6)
+        LoaiPhong("P125", "Phòng Deluxe", 800000, 2),
+        LoaiPhong("P201", "Phòng Standard", 500000, 2),
+        LoaiPhong("P302", "Phòng Suite", 1500000, 4),
+        LoaiPhong("P403", "Phòng Family", 2000000, 6),
+        LoaiPhong("P504", "Phòng VIP", 3000000, 3),
+        LoaiPhong("P605", "Phòng Executive", 2500000, 4)
     )
 }

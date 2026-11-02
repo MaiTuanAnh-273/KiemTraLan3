@@ -1,14 +1,12 @@
 package com.example.maituananh_2415141122125.helper
 
-import vn.edu.ute.datphong.data.DuLieuMau
-import vn.edu.ute.datphong.model.DonDatPhong
-import vn.edu.ute.datphong.model.LoaiPhong
+import com.example.maituananh_2415141122125.data.DuLieuMau
+import com.example.maituananh_2415141122125.model.LoaiPhong
 
 object DatPhongHelper {
-
     fun timLoaiPhong(ma: String): LoaiPhong? {
-        val maCanTim = ma.trim()
-        return DuLieuMau.dsLoaiPhong.firstOrNull { it.ma.equals(maCanTim, ignoreCase = true) }
+        val maTim = ma.trim().uppercase()
+        return DuLieuMau.dsLoaiPhong.find { it.ma.trim().uppercase() == maTim }
     }
 
     fun hopLeSoKhach(loai: LoaiPhong, soKhach: Int): Boolean {
@@ -16,31 +14,21 @@ object DatPhongHelper {
     }
 
     fun tinhTienPhong_2415141122125(loai: LoaiPhong, soDem: Int, soKhach: Int): Long {
-        if (soDem < 1 || !hopLeSoKhach(loai, soKhach)) return 0L
-
-        var tienPhong = loai.giaMotDem * soDem
-        if (soDem >= 5) {
-            tienPhong = tienPhong * 85 / 100
+        if (soDem < 1 || !hopLeSoKhach(loai, soKhach)) {
+            return 0
         }
 
+        var tienPhong = loai.giaMotDem * soDem
+        
+        // Giảm 15% nếu đặt từ 5 đêm trở lên
+        if (soDem >= 5) {
+            tienPhong = (tienPhong * 85) / 100
+        }
+
+        // Tính phụ thu cho số khách vượt sức chứa
         val soKhachVuot = maxOf(0, soKhach - loai.sucChua)
         val phuThu = soKhachVuot * 150000L * soDem
 
         return tienPhong + phuThu
-    }
-
-    fun taoMaDon(don: DonDatPhong): String {
-        val phan = don.ngayNhan.trim().split("/")
-        val ngay = phan.getOrElse(0) { "" }
-        val thang = phan.getOrElse(1) { "" }
-        return "DP125-" + ngay + thang + "-" + don.maLoaiPhong.trim().uppercase()
-    }
-
-    fun locTheoSoKhach(ds: List<LoaiPhong>, soKhach: Int): List<LoaiPhong> {
-        return ds.filter { it.sucChua >= soKhach }
-            .sortedWith(
-                compareByDescending<LoaiPhong> { it.sucChua }
-                    .thenBy { it.giaMotDem }
-            )
     }
 }
